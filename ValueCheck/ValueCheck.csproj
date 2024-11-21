@@ -4,6 +4,21 @@
         <TargetFramework>net9.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <Title>Value Check</Title>
+        <Authors>Psifiomatica</Authors>
+        <Description>The package provides extension methods for for string values aiming to enhance and simplify validation operations.</Description>
+        <Copyright>Psifiomatica</Copyright>
+        <RepositoryUrl>https://github.com/psifiomatica/ValueCheck</RepositoryUrl>
+        <RepositoryType>GIT</RepositoryType>
+        <PackageTags>Validation</PackageTags>
+    </PropertyGroup>
+    
+    <PropertyGroup>
+        <PackageReadmeFile>ReadMe.md</PackageReadmeFile>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
     </PropertyGroup>
 
+    <ItemGroup>
+        <None Include="ReadMe.md" Pack="true" PackagePath="" />
+    </ItemGroup>
 </Project>
